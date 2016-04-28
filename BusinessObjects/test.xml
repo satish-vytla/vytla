@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Student xmlns="http://www.test.com/bankapp/student">
+	<sno>101</sno>
+	<sname>Jhon</sname>
+	<course>4500.0</course>
+	<Address>
+		<city>Plymouth</city>
+		<zip>55447</zip>
+	</Address>
+</Student>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.test.com/bankapp"
+	xmlns:tns="http://www.test.com/bankapp" elementFormDefault="qualified">
+	
+
+   <element name="CreditReportRequest">
+	    <complexType>
+	    	<sequence>
+	    		<element name="ssn" type="string"></element>
+	    		<element name="fname" type="string"></element>
+	    		<element name="dob" type="string"></element>
+	    	</sequence>
+	    </complexType>
+    </element>
+    
+    <element name="CreditReportResponse">
+	    <complexType>
+	    	<sequence>
+	    		<element name="ssn" type="string"></element>
+	    		<element name="fname" type="string"></element>
+	    		<element name="dob" type="string"></element>
+	    		<!-- <element name="member" type="tns:commonData"></element> -->
+	    		<element name="score" type="int"></element>
+	    		<element name="noOfAccounts" type="int"></element>
+	    		<element name="Address" type="tns:Address" maxOccurs="unbounded"></element>
+	    	</sequence>
+	    </complexType>
+    </element>
+      
+    <element name="Error">
+	    <complexType>
+	    	<sequence>
+	    		<element name="status" type="string"></element>
+	    		<element name="errCode" type="string"></element>
+	    		<element name="errMessage" type="string"></element>
+	    	</sequence>
+	    </complexType>
+    </element>
+    
+    <complexType name="Address">
+	    	<sequence>
+	    		<element name="city" type="string"></element>
+	    		<element name="zip" type="string"></element>
+	    	</sequence>
+	</complexType>
+	
+	<!-- <complexType name="commonData">
+	    	<sequence>
+	    		<element name="ssn" type="string"></element>
+	    		<element name="fname" type="string"></element>
+	    		<element name="dob" type="string"></element>
+	    	</sequence>
+	</complexType> -->
+    
+	
+    
+    
+    
+  
+</schema>
+
+  
+  

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:CreditReportRequest xmlns:tns="http://www.test.com/bankapp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.test.com/bankapp creditservice.xsd ">
+  <tns:ssn>678-34-789</tns:ssn>
+  <tns:fname>Jhon</tns:fname>
+  <tns:dob>12-4-1980</tns:dob>
+</tns:CreditReportRequest>

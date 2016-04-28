@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Employee xmlns:tns="http://www.test.com/bankapp/employee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.test.com/bankapp/employee employee.xsd ">
+	<tns:eno>101</tns:eno>
+	<tns:ename>Goapl</tns:ename>
+	<tns:salary>4500.3</tns:salary>
+	<tns:Address>
+		<tns:city>Plymouth</tns:city>
+		<tns:zipcode>55447</tns:zipcode>
+		<tns:state>MI</tns:state>
+	</tns:Address>
+</tns:Employee>
