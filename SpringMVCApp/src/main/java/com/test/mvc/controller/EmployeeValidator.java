@@ -10,12 +10,12 @@ import com.test.model.Employee;
 @Component
 public class EmployeeValidator implements Validator {
 
-	@Override
+	//@Override
 	public boolean supports(Class<?> clazz) {
 		return Employee.class.isAssignableFrom(clazz);
 	}
 
-	@Override
+	//@Override
 	public void validate(Object target, Errors errors) {
 		Employee emp = (Employee) target;
 		
